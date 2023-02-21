@@ -217,7 +217,7 @@ killauratargetframe = Killaura.CreateTargetWindow({})
 killauraaps = Killaura.CreateTwoSlider({
 	["Name"] = "Attacks per second",
 	["Min"] = 1,
-	["Max"] = 20,
+	["Max"] = 200,
 	["Default"] = 8,
 	["Default2"] = 12
 })
