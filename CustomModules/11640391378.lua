@@ -393,7 +393,7 @@ runcode(function()
 	killaurarange = Killaura.CreateSlider({
 		["Name"] = "Attack range",
 		["Min"] = 1,
-		["Max"] = 20, 
+		["Max"] = 45, 
 		["Function"] = function(val) 
 			if killaurarangecirclepart then 
 				killaurarangecirclepart.Size = Vector3.new(val * 0.7, 0.01, val * 0.7)
@@ -549,7 +549,7 @@ runcode(function()
 	nukerrange = Nuker.CreateSlider({
 		["Name"] = "Break range",
 		["Min"] = 1, 
-		["Max"] = 25, 
+		["Max"] = 60, 
 		["Function"] = function(val) end, 
 		["Default"] = 25
 	})
