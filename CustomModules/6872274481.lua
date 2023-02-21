@@ -2402,7 +2402,7 @@ runcode(function()
 	autoclickercps = autoclicker.CreateTwoSlider({
 		Name = "CPS",
 		Min = 1,
-		Max = 20,
+		Max = 100,
 		Function = function(val) end,
 		Default = 8,
 		Default2 = 12
@@ -2452,7 +2452,7 @@ runcode(function()
 	reachval = Reach.CreateSlider({
 		Name = "Reach",
 		Min = 0,
-		Max = 18,
+		Max = 30,
 		Function = function(val)
 			if Reach.Enabled then
 				bedwars.CombatConstant.RAYCAST_SWORD_CHARACTER_DISTANCE = val
@@ -2662,8 +2662,8 @@ runcode(function()
 	targetstrafespeed = targetstrafe.CreateSlider({
 		Name = "Speed",
 		Min = 1,
-		Max = 80,
-		Default = 80,
+		Max = 160,
+		Default = 160,
 		Function = function() end
 	})
 	targetstrafejump = targetstrafe.CreateSlider({
@@ -2676,7 +2676,7 @@ runcode(function()
 	targetstrafedistance = targetstrafe.CreateSlider({
 		Name = "Distance",
 		Min = 1,
-		Max = 12,
+		Max = 16,
 		Default = 8,
 		Function = function() end
 	})
@@ -2789,7 +2789,7 @@ runcode(function()
 	FieldOfViewValue = FieldOfView.CreateSlider({
 		Name = "FOV",
 		Min = 30,
-		Max = 120,
+		Max = 240,
 		Function = function(val)
 			if FieldOfView.Enabled then
 				cam.FieldOfView = val * (bedwars.SprintController.sprinting and 1.1 or 1)
@@ -3121,7 +3121,7 @@ runcode(function()
 	bedprotectorrange = BedProtector.CreateSlider({
 		Name = "Place range",
 		Min = 1, 
-		Max = 20, 
+		Max = 50, 
 		Function = function(val) end, 
 		Default = 20
 	})
@@ -3208,7 +3208,7 @@ runcode(function()
 	nukerrange = Nuker.CreateSlider({
 		Name = "Break range",
 		Min = 1, 
-		Max = 30, 
+		Max = 50, 
 		Function = function(val) end, 
 		Default = 30
 	})
@@ -3342,7 +3342,7 @@ runcode(function()
 	ChestStealerDistance = ChestStealer.CreateSlider({
 		Name = "Range",
 		Min = 0,
-		Max = 18,
+		Max = 25,
 		Function = function() end,
 		Default = 18
 	})
@@ -3763,7 +3763,7 @@ runcode(function()
 		Name = "Range",
 		Function = function() end,
 		Min = 1,
-		Max = 20,
+		Max = 100,
 		Default = 20
 	})
 	AutoBuyArmor = AutoBuy.CreateToggle({
@@ -5448,7 +5448,7 @@ runcode(function()
     killaurarange = Killaura.CreateSlider({
         Name = "Attack range",
         Min = 1,
-        Max = 18,
+        Max = 35,
         Function = function(val) 
 			if killaurarangecirclepart then 
 				killaurarangecirclepart.Size = Vector3.new(val * 0.7, 0.01, val * 0.7)
@@ -5749,7 +5749,7 @@ runcode(function()
 		Name = "Range",
 		Function = function() end,
 		Min = 1,
-		Max = 50,
+		Max = 75,
 		Default = 50
 	})
 end)
@@ -5871,7 +5871,7 @@ runcode(function()
 	FastPickupRange = FastPickup.CreateSlider({
 		Name = "Range",
 		Min = 1,
-		Max = 10, 
+		Max = 25, 
 		Function = function() end,
 		Default = 10
 	})
@@ -7066,14 +7066,14 @@ runcode(function()
 	speedval = speed.CreateSlider({
 		Name = "Speed",
 		Min = 1,
-		Max = 23,
+		Max = 45,
 		Function = function(val) end,
 		Default = 23
 	})
 	speedvalbig = speed.CreateSlider({
 		Name = "Big Mode Speed",
 		Min = 1,
-		Max = 23,
+		Max = 45,
 		Function = function(val) end,
 		Default = 23
 	})
@@ -7339,7 +7339,7 @@ runcode(function()
 	flyspeed = fly.CreateSlider({
 		Name = "Speed",
 		Min = 1,
-		Max = 23,
+		Max = 45,
 		Function = function(val) end, 
 		Default = 23
 	})
