@@ -637,9 +637,9 @@ runcode(function()
 	flyspeed = fly.CreateSlider({
 		["Name"] = "Speed",
 		["Min"] = 1,
-		["Max"] = 23,
+		["Max"] = 40,
 		["Function"] = function(val) end, 
-		["Default"] = 23
+		["Default"] = 40
 	})
 	flyverticalspeed = fly.CreateSlider({
 		["Name"] = "Vertical Speed",
@@ -939,9 +939,9 @@ runcode(function()
 	speedval = speed.CreateSlider({
 		["Name"] = "Speed",
 		["Min"] = 1,
-		["Max"] = 23,
+		["Max"] = 40,
 		["Function"] = function(val) end,
-		["Default"] = 23
+		["Default"] = 40
 	})
 	speedjumpheight = speed.CreateSlider({
 		["Name"] = "Jump Height",
@@ -991,8 +991,8 @@ runcode(function()
 	local AnticheatBypassArrowDodge = {["Enabled"] = false}
 	local AnticheatBypassAutoConfig = {["Enabled"] = false}
 	local AnticheatBypassAutoConfigBig = {["Enabled"] = false}
-	local AnticheatBypassAutoConfigSpeed = {["Value"] = 54}
-	local AnticheatBypassAutoConfigSpeed2 = {["Value"] = 54}
+	local AnticheatBypassAutoConfigSpeed = {["Value"] = 60}
+	local AnticheatBypassAutoConfigSpeed2 = {["Value"] = 60}
 	local AnticheatBypassTPSpeed = {["Value"] = 13}
 	local AnticheatBypassTPLerp = {["Value"] = 50}
 	local clone
