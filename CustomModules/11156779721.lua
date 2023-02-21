@@ -846,7 +846,7 @@ runcode(function()
 	killaurarange = Killaura.CreateSlider({
 		["Name"] = "Attack range",
 		["Min"] = 1,
-		["Max"] = 15, 
+		["Max"] = 45, 
 		["Function"] = function(val) 
 			if killaurarangecirclepart then 
 				killaurarangecirclepart.Size = Vector3.new(val * 0.7, 0.01, val * 0.7)
@@ -1066,7 +1066,7 @@ runcode(function()
 	speedval = speed.CreateSlider({
 		["Name"] = "Speed", 
 		["Min"] = 1,
-		["Max"] = 28, 
+		["Max"] = 40, 
 		["Function"] = function(val) end
 	})
 	speedjump = speed.CreateToggle({
@@ -1442,7 +1442,7 @@ runcode(function()
 	NukerRange = Nuker.CreateSlider({
 		["Name"] = "Range",
 		["Min"] = 1,
-		["Max"] = 30,
+		["Max"] = 60,
 		["Default"] = 30,
 		["Function"] = function() end
 	})
