@@ -837,9 +837,9 @@ runcode(function()
 	ReachValue = Reach.CreateSlider({
 		["Name"] = "Reach", 
 		["Min"] = 1, 
-		["Max"] = 18, 
+		["Max"] = 45, 
 		["Function"] = function(val) end,
-		["Default"] = 18
+		["Default"] = 45
 	})
 end)
 
@@ -1398,7 +1398,7 @@ runcode(function()
 	killaurarange = Killaura.CreateSlider({
 		["Name"] = "Attack range",
 		["Min"] = 1,
-		["Max"] = 30, 
+		["Max"] = 45, 
 		["Function"] = function(val) 
 			if killaurarangecirclepart then 
 				killaurarangecirclepart.Size = Vector3.new(val * 0.7, 0.01, val * 0.7)
