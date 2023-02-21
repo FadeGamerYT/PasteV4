@@ -650,7 +650,7 @@ runcode(function()
 	autoclickercps = autoclicker.CreateTwoSlider({
 		["Name"] = "CPS",
 		["Min"] = 1,
-		["Max"] = 20,
+		["Max"] = 100,
 		["Function"] = function(val) end,
 		["Default"] = 8,
 		["Default2"] = 12
@@ -1585,14 +1585,14 @@ runcode(function()
 	killauraaps = Killaura.CreateTwoSlider({
 		["Name"] = "Attacks per second",
 		["Min"] = 1,
-		["Max"] = 20,
+		["Max"] = 200,
 		["Default"] = 8,
 		["Default2"] = 12
 	})
 	killaurarange = Killaura.CreateSlider({
 		["Name"] = "Attack range",
 		["Min"] = 1,
-		["Max"] = 18, 
+		["Max"] = 45, 
 		["Function"] = function(val) end
 	})
 	killauraangle = Killaura.CreateSlider({
@@ -1739,7 +1739,7 @@ runcode(function()
 	speedval = speed.CreateSlider({
 		["Name"] = "Speed", 
 		["Min"] = 1,
-		["Max"] = 38, 
+		["Max"] = 60, 
 		["Function"] = function(val) end
 	})
 	speedjumpheight = speed.CreateSlider({
