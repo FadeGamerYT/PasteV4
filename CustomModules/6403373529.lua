@@ -254,7 +254,7 @@ runcode(function()
 	killaurarange = Killaura.CreateSlider({
 		["Name"] = "Attack range",
 		["Min"] = 1,
-		["Max"] = 25, 
+		["Max"] = 60, 
 		["Function"] = function(val) end
 	})
 	killauraangle = Killaura.CreateSlider({
